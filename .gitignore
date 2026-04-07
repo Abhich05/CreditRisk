@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Processed data (optional - can be regenerated)
+data/processed/
+
+# Model artifacts (optional - can be regenerated)
+models/*.pkl
+models/*.png
+
+# PDF
+*.pdf
